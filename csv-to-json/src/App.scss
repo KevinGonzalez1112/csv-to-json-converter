@@ -1,0 +1,77 @@
+.main-container
+{
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+
+  background-color: #eaf4ff;
+
+  h1
+  {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+
+    margin: 4vh 0 0 0;
+  }
+
+  h2
+  {
+    text-align: center;
+
+    margin: 2vh 0 4vh 0;
+  }
+
+  .input-container
+  {
+    display: flex;
+    justify-content: center;
+
+    #csvInput
+    {
+      width: 90vw;
+      height: 27.5vh;
+
+      padding: 0.5rem;
+
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1rem;
+    }
+  }
+
+  .buttons
+  {
+    display: flex;
+    justify-content: center;
+
+    #convertButton, #downloadButton
+    {
+      width: 10vw;
+
+      font-size: 1rem;
+
+      padding: 0.5rem;
+      margin: 3vh;
+    }
+  }
+
+  .output-container
+  {
+    display: flex;
+    justify-content: center;
+
+    #jsonOutput
+    {
+      width: 90vw;
+      height: 27.5vh;
+
+      padding: 0.5rem;
+
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1rem;
+    }
+  }
+}
+
